@@ -1,0 +1,32 @@
+.checkw{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+    gap: 3vh;
+}
+.check__h1{
+    margin-left: 4vw;
+    margin-top: 3vh;
+}
+.check__header{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.check__total{
+    background: linear-gradient(45deg,#69519f 40%,green);
+    color: transparent;
+    background-clip: text;
+}
+@media (max-width:768px){
+    .check__h1{
+        text-align: center;
+        margin-top: 3vh;
+        margin-left: 0;
+        padding: 0 6vw;
+    }
+}

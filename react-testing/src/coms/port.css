@@ -1,0 +1,36 @@
+.portw{
+    position: relative;
+    height: 100%;
+}
+.port__line{
+    height: 100%;
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    border-radius: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.port__ball{
+    width: 20px;
+    position: relative;
+    z-index: 100;
+    height: 20px;
+    border-radius: 50%;
+}
+.port{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 2vw;
+    align-items: flex-start;
+}
+.port__l{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.port__des{
+    margin-top: 2vh;
+}

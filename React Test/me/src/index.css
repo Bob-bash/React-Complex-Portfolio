@@ -1,0 +1,24 @@
+:root{
+    --bgColor:black;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+

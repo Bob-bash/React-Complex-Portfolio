@@ -1,0 +1,38 @@
+.loading{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+.loadingw{
+    position: relative;
+    overflow: hidden;
+    border-radius: 2vw;
+}
+.loading__bar{
+    width: 70vw;
+    height: 30vh;
+    border-radius: 2vw;
+    border: 2px solid  #69519f;
+    background-color: rgba(255, 255, 255, .1);
+}
+.loading__move{
+    position: absolute;
+    height:40vh;
+    transform: rotate(-25deg);
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, .1);
+    left: -10vw;
+    bottom: 0;
+    margin: auto 0;
+    top: 0;
+    animation:loading__move 2s 0s infinite backwards;
+    animation-direction: reverse;
+    width: 2vw;
+}
+@keyframes loading__move {
+    0%{
+        left: 80vw;
+    }
+}

@@ -1,0 +1,37 @@
+.con__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    transform: translateY(-50%);
+}
+.conw{
+    position: relative;
+}
+.con__line{
+    width: 80%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 1000px;
+    margin:2vh 0;
+}
+.con__p{
+    text-align: center;
+    margin-top: 2vh;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 3vw 2vh;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.con+.con{
+    margin-left: 2vw !important;
+}

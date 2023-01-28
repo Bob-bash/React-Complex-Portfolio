@@ -1,0 +1,46 @@
+.checkbox{
+    width: 80vw;
+    border-radius: 2vw;
+    outline: 2px solid rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 5vh 5vw 5vh 10vw;
+}
+.checkbox__btn:hover{
+    background-color: white;
+}
+.checkbox__btn{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2vh 2vw;
+    border-radius: 2vw;
+    background-color: #69519f;
+}
+.checkbox:hover{
+    background-color: rgba(0, 0, 0, .2);
+    outline:3px solid #69519f;
+}
+.checkbox__w{
+    display: flex;
+    gap: 2vw;
+    align-items: cen;
+}
+.checkbox__l{
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.checkbox__r{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}

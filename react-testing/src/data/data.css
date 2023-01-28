@@ -1,0 +1,15 @@
+.arrow__icon{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    position:absolute;
+    top: 50%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.arrow_l{
+    left: -5vw;
+}
+.arrow_r{
+    right:-5vw;
+}

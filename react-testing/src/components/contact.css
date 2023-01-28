@@ -1,0 +1,59 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(250,248,242,255);
+    padding: 8vh 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_p{
+    text-align: center;
+    margin-top: 4vh;
+    line-height: 5vh;
+    width: 50vw;
+}
+.contact__b{
+    width: 80vw;
+    margin-top: 4vh;
+}
+.slideP{
+    background-color: white !important;
+}
+
+.slick-slide{
+    margin-top: 9vh;
+}
+
+.slick-track{
+    display: flex;
+    gap: 2vw;
+}
+.slick-dots{
+    bottom: -8vh;
+}
+.slick-center{
+    transition: .3s ;
+}
+.slick-center{
+    margin-top: 4vh ;
+}
+.contact__icon{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact__icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.slick-dots li button:before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    top: 2vh;
+}

@@ -1,0 +1,20 @@
+.totop svg{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.totop{
+    position: fixed;
+    bottom: 5vh;
+    right: 4vw;
+    width: 40px;
+    height: 40px;
+    border-radius: 70% 40% 40% 70%/40% 70% 40% 70%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .4);
+    display: grid;
+    place-items: center;
+}
+.totop:hover{
+    background-color: rgba(0, 0, 0,1);
+}

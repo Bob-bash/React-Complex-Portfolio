@@ -1,0 +1,13 @@
+.s1::after{
+    content: '';
+    height: 17px ;
+    width: 5px;
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    background-color: gray;
+    border-radius: 4px;
+}
+.s1{
+    position: relative;
+}

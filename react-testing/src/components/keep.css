@@ -1,0 +1,29 @@
+.keep{
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    transition: .3s;
+    place-items: center;
+    z-index: 100000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(2);
+}
+.keep__close{
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, .7) ;
+    color: white;
+    font-size: 30px;
+}
+.keep__close:hover{
+    background-color:rgba(255, 255, 255, .1) ;
+}

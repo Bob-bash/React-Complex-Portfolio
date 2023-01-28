@@ -1,0 +1,28 @@
+.exper__iconw{
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 50% ;
+}
+.exper__iconw svg{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.exper__r{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.exper{
+    padding: 4vh 2vw 4vh 5vw;
+    outline: solid 2px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    gap: 25px;
+    flex: 1;
+    align-items: center;
+}
